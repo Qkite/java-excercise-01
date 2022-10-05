@@ -20,8 +20,13 @@ public class RandomCalculator {
     }
 
     public static void divide(){
+
         try{
-            System.out.println((float) inputNum / (float) randomNumber);
+            double resultNumber =  inputNum / randomNumber;
+            if (Double.isInfinite(resultNumber)||Double.isNaN(resultNumber)){
+                throw new ArithmeticException();
+            }
+            System.out.println(inputNum / randomNumber);
         }catch (ArithmeticException e){
             System.out.println("random한 숫자가 0으로 생성되었습니다.");
         }
