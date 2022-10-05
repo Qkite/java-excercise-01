@@ -13,5 +13,3 @@ public class SwapExcercise {
 
     }
 }
-Footer
-        © 2022 GitHub, I
