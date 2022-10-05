@@ -5,13 +5,13 @@ public class CalculatorMain {
         int num1 = 50;
         int num2 = 60;
 
-        Calculator calculator = new Calculator();
 
-        double result1 = calculator.minus(50,60);
-        double result2 = calculator.plus(70,90);
-        double result3 = calculator.multiple(50,6);
-        double result4 = calculator.divide(10,20);
+        Calculator calculator = new Calculator(50,60);
 
+        double result1 = calculator.minus();
+        double result2 = calculator.plus();
+        double result3 = calculator.multiple();
+        double result4 = calculator.divide();
 
 
 
