@@ -9,6 +9,7 @@ public class CalculatorMain {
         double result2 = Calculator.plus(70,90);
         double result3 = Calculator.multiple(50,6);
 
+
         System.out.println(result1);
         System.out.println(result2);
         System.out.println(result3);
