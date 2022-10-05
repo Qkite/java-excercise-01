@@ -6,6 +6,7 @@ public class CalculatorMain {
         int num2 = 60;
 
 
+
         Calculator calculator = new Calculator(50,60);
 
         double result1 = calculator.minus();

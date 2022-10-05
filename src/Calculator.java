@@ -1,5 +1,6 @@
 public class Calculator {
 
+
     static double num1, num2;
 
     Calculator(double num1, double num2){
