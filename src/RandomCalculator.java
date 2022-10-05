@@ -21,10 +21,12 @@ public class RandomCalculator {
 
     public static void divide(){
         try{
-            System.out.println(inputNum + randomNumber);
+            System.out.println((float) inputNum / (float) randomNumber);
         }catch (ArithmeticException e){
             System.out.println("random한 숫자가 0으로 생성되었습니다.");
         }
+
+    }
 
     }
 
